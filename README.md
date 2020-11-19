@@ -2,10 +2,10 @@
 
 1. In each segment mechanics transmission gives better mileage than auto transmission 
 2. small segments cars gives less mileage compared to large segment one 
-3.In case of fully executive and executive cars, executive cars have better avg mileage
-4.Looks like Auto transmission car need large tanks of fuel. S segment and F segment car need large tanks
-5.People prefer to use petrol as fuel over diesel But for M segment mechanics transmission people prefer diesel
-6.after 2007 almost every segment price has increased Executive, Fully executive , sports,J-segment has increased exponentially
+3. In case of fully executive and executive cars, executive cars have better avg mileage
+4. Looks like Auto transmission car need large tanks of fuel. S segment and F segment car need large tanks
+5. People prefer to use petrol as fuel over diesel But for M segment mechanics transmission people prefer diesel
+6. after 2007 almost every segment price has increased Executive, Fully executive , sports,J-segment has increased exponentially
 
 Made Function to get segment missing value
 function to get missing value
@@ -34,5 +34,5 @@ def segment(i,vol, price):
         return 'S'
      
      
-   1.LabelBinaraizer works better than one hot encoder
-   2. randomforest baseline model worked best, i tried tuning accuracy did not improve much
+   1. LabelBinaraizer works better than one hot encoder
+   2. Randomforest baseline model worked best, i tried tuning accuracy did not improve much
